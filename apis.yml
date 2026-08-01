@@ -1,8 +1,16 @@
 aid: stuffthatworks
 name: StuffThatWorks
-description: 'StuffThatWorks is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'StuffThatWorks is a community-driven health research platform where patients
+  with chronic conditions share their real-world experiences to figure out, together,
+  which treatments work best. Members complete structured surveys about their diagnoses,
+  symptoms, and treatment outcomes, and the platform applies collective-intelligence
+  and machine-learning models to turn thousands of patient reports into comparative,
+  condition-by-condition treatment rankings across hundreds of chronic illnesses such
+  as fibromyalgia, IBS, migraine, PCOS, and endometriosis. Founded in 2018 and headquartered
+  in Tel Aviv, StuffThatWorks is backed by Bessemer Venture Partners. The consumer product
+  is delivered as a web and mobile (PWA / Capacitor) application; probing the public
+  domain surfaced no public developer API, SDK, OpenAPI, or developer portal at this
+  time — only the SPA''s private backend under /api/.'
 url: https://raw.githubusercontent.com/api-evangelist/stuffthatworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.stuffthatworks.health/blog/wp-content/uploads/2020/06/favicon-310-300x300.png
 tags:
 - Company
 - Healthcare
+- Health
+- Patient Community
+- Chronic Conditions
+- Crowdsourcing
+- Medical Research
+- Collective Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stuffthatworks-domain-security.yml
 - type: Website
   url: https://www.stuffthatworks.health/
+- type: Blog
+  url: https://www.stuffthatworks.health/blog/
+- type: Support
+  url: https://www.stuffthatworks.health/faq
+- type: TermsOfService
+  url: https://www.stuffthatworks.health/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.stuffthatworks.health/legal/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
